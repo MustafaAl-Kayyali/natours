@@ -1,0 +1,32 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "start:prod": "cross-env NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "keywords": [],
+  "author": "Mustafa Al-Kayyali",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.20.1",
+    "morgan": "^1.10.1",
+    "ndb": "^1.1.5",
+    "slugify": "^1.6.6",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
